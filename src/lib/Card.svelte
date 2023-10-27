@@ -5,9 +5,12 @@
 
     let clazz = '';
     export {clazz as class};
+    function open_tab(url) {
+        window.open(url, '_blank');
+    }
 </script>
 
-<button class="card {clazz}" >
+<button class="card {clazz}" on:click={open_tab(url)}>
     <h3>{title}</h3>
     <h5>{description}</h5>
 </button>
