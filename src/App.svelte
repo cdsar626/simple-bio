@@ -5,7 +5,7 @@
 <main>
   <div>
     <a href="https://www.linkedin.com/in/cdsar626/" target="_blank" rel="noreferrer">
-      <img src="https://media.licdn.com/dms/image/C4D35AQEoJ7NB80W0eA/profile-framedphoto-shrink_400_400/0/1592957635473?e=1698973200&v=beta&t=tV99DRHLy0Omv5UjEAMJPfgXKR6qizc7v5vn9qPD3NM" class="logo" alt="LinkedIn_pfp" />
+      <img src="https://files.cdsar626.com/files/1592957635473.jpeg" class="logo" alt="LinkedIn_pfp" />
     </a>
   </div>
   <h1>Cesar De la Vega Salinas</h1>
@@ -22,7 +22,7 @@
     />
     <Card class="span2" title={"Tablist"}
     description={"A Work-in-progress task list app. Now available only in Playstore. App built using flutter and mongodb."}
-    url={"https://akm.cdsar626.com"}
+    url={"https://tablist.cdsar626.com"}
     />
   </div>
 
