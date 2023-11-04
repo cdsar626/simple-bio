@@ -3,22 +3,18 @@
     export let description;
     export let url;
 
-    let clazz = '';
-    export {clazz as class};
     function open_tab(url) {
         window.open(url, '_blank');
     }
 </script>
 
-<button class="card {clazz}" on:click={open_tab(url)}>
+<button class="card" on:click={open_tab(url)}>
     <h3>{title}</h3>
-    <h5>{description}</h5>
+    <h5 class="word">{description}</h5>
 </button>
 
 <style>
-    .span2 {
-        grid-column-end: span 2;
-    }
+    
     .card {
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;

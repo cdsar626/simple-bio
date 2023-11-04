@@ -10,20 +10,27 @@
   </div>
   <h1>Cesar De la Vega Salinas</h1>
   <h4>Software Developer / Fullstack</h4>
-
   <div class="projects">
-    <Card title={"Basic Personal Server"}
-    description={"A basic server to upload files, built in vuejs and expressjs."}
-    url={"https://files.cdsar626.com"}
-    />
-    <Card title={"eCommerce Clone"}
-    description={"A clone of Andreas Kitchen Meals website, using shoprocket store instead of Wix's. Built using Astro/Solidjs/TailwindCSS."}
-    url={"https://akm.cdsar626.com"}
-    />
-    <Card class="span2" title={"Tablist"}
-    description={"A Work-in-progress task list app. Now available only in Playstore. App built using flutter and mongodb."}
-    url={"https://tablist.cdsar626.com"}
-    />
+      <div class="">
+        <Card title={"Basic Personal Server"}
+        description={"A basic server to upload files, built in vuejs and expressjs."}
+        url={"https://files.cdsar626.com"}
+        />
+      </div>
+      
+      <div>
+        <Card title={"eCommerce Clone"}
+        description={"A clone of Andreas Kitchen Meals website, using shoprocket store instead of Wix's. Built using Astro / Solidjs / TailwindCSS."}
+        url={"https://akm.cdsar626.com"}
+        />
+      </div>
+      
+      <div class="span2">
+        <Card title={"Tablist"}
+        description={"A Work-in-progress task list app. Now available only in Playstore. App built using flutter and mongodb."}
+        url={"https://tablist.cdsar626.com"}
+        />
+      </div>
   </div>
 
   <p>
@@ -41,9 +48,12 @@
 <style>
   .projects {
     display: grid;
-    grid-template-columns: auto auto;
-    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
   }
+  .span2 {
+        grid-column-end: span 2;
+    }
   .logo {
     height: 8em;
     will-change: filter;
